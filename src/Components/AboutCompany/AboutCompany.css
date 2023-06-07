@@ -1,0 +1,143 @@
+
+.about-main-container {
+    max-width: 100%;
+    padding: 0 104px;
+    max-height: 85vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-section-1 {
+    width: 50%;
+    padding: 20px 0;
+}
+
+.about-section-1 h3 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 30px 0 20px;
+}
+
+.about-section-1 p {
+    font-size: 1.1rem;
+}
+
+.about-section-1 button {
+    font-size: 1rem;
+    padding: 20px;
+    margin: 30px 0 50px;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.9);
+    border: 1px solid rgba(255, 0, 0, 0.9);
+}
+
+.about-section-1 button:hover {
+    background-color: white;
+    color: rgba(255, 0, 0, 0.9);
+}
+
+.about-section-1-prices {
+    display: flex;
+    justify-content: start;
+
+}
+
+.about-section-1-prices-item {
+    list-style: none;
+    width: 50%;
+}
+
+.about-section-1-prices-item h1 {
+    font-size: 6rem;
+}
+
+.about-section-2 {
+    width: 50%;
+}
+
+.about-section-2-features {
+    margin-top: 10px;
+}
+
+.about-section-2-features-item {
+    display: flex;
+    justify-content: left;
+    gap: 15px;
+    margin: 30px 30px 0 0;
+}
+
+.about-section-2-features-item li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+@media screen and (max-width:750px){
+    .about-main-container {
+        max-width: 100%;
+        padding: 20px 50px 10px;
+        height:150vh;
+        display: flex;
+       flex-direction: column;
+       margin-bottom: 20px;
+    }
+    .about-section-1 {
+        width: 100%;
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-section-1 h3 {
+        font-size: 2rem;
+        margin: 10px 0 10px;
+    }
+
+    .about-section-1 p {
+        font-size: 1rem;
+    }
+
+    .about-section-1 button {
+        padding: 10px;
+        margin: 20px 0 30px;
+        width: 100%;
+    }
+    .about-section-1-prices {
+        width: 100%;
+        padding: 0 140px;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    .about-section-1-prices-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-section-1-prices-item h1 {
+        font-size: 4rem;
+    }
+    .about-section-2 {
+        width: 100%;
+    }
+    .about-section-2-features {
+        width: 100%;
+       display: flex;
+       flex-direction: column;
+       gap: 20px;
+    }
+    .about-section-2-features-item {
+        display: flex;
+        margin: 0 30px;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 10px;
+    }
+    .about-section-2-features-item li {
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+    }
+}

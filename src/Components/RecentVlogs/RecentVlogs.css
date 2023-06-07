@@ -1,0 +1,93 @@
+
+.recent-vlogs-container{
+    margin: 10px 0 0 0;
+   max-width: 100%;
+    padding: 20px 104px ;
+    height: 100vh;
+}
+
+.recent-vlogs-container h2{
+    font-size: 2.2rem;
+}
+
+.recent-vlogs-items-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.recent-vlog-item{
+padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    gap: 20px;
+    overflow: hidden;
+    
+}
+.recent-vlog-item img{
+    width: 30vw;
+    height: 290px;
+    margin-bottom: 10px;
+}
+
+.recent-vlog-button{
+    width: 160px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    padding: 10px 3px 5px;
+    margin:20px auto;
+    color: rgba(255, 0, 0, 0.9);
+    background-color: white;
+    border: 1px solid rgba(255, 0, 0, 0.9);
+    cursor: pointer;
+}
+
+.recent-vlog-button:hover{
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+}
+
+
+@media screen and (max-width:750px){
+    .recent-vlogs-container{
+        max-width: 100%;
+        height: 200vh;
+        padding:20px 50px 10px;
+        margin-bottom: 30px;
+    }
+    .recent-vlogs-items-wrapper{
+        width: 100%;
+        height: 180vh;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        gap: 10px;
+    }
+    .recent-vlog-item{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        border-bottom: 2px solid rgba(5, 5, 5, 0.2);
+    }
+    .recent-vlog-item img{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .recent-vlog-button{
+        width: 60%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        font-size: 1rem;
+        padding: 10px 3px 5px;
+        margin:30px auto;
+        color: rgba(255, 0, 0, 0.9);
+        background-color: white;
+        border: 1px solid rgba(255, 0, 0, 0.9);
+    }
+}

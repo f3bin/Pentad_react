@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40.88" height="40.88" viewBox="0 0 40.88 40.88">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_19256" data-name="Rectangle 19256" width="40.88" height="40.88" transform="translate(889.5 1688.5)" fill="rgba(43,43,43,0.33)"/>
+    </clipPath>
+  </defs>
+  <g id="Goal-Based-Investing" transform="translate(-889.5 -1688.5)" clip-path="url(#clip-path)">
+    <g id="Group_64810" data-name="Group 64810" transform="translate(118.027 36.071)">
+      <path id="Path_77744" data-name="Path 77744" d="M8.885,0a9.011,9.011,0,0,1,4.449,1.192,8.816,8.816,0,0,1,4.436,7.692A8.885,8.885,0,0,1,0,8.885a9.109,9.109,0,0,1,3.539-7.3" transform="matrix(0.454, 0.891, -0.891, 0.454, 793.01, 1663.752)" fill="none" stroke="#1c2136" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_77745" data-name="Path 77745" d="M14.985,0a15.2,15.2,0,0,1,7.5,2.011A14.87,14.87,0,0,1,29.97,14.985a14.985,14.985,0,0,1-29.97,0A15.364,15.364,0,0,1,5.97,2.664" transform="matrix(0.454, 0.891, -0.891, 0.454, 795.676, 1655.546)" fill="none" stroke="#1c2136" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_77746" data-name="Path 77746" d="M-4321,10959.465l10.867-10.949" transform="translate(5110.127 -9283.763)" fill="none" stroke="#ee3739" stroke-linecap="round" stroke-width="2"/>
+      <path id="Path_77747" data-name="Path 77747" d="M-4304.952,10936.869l4.97-4.941,1.227,4.941,5.025,1.37-4.8,4.894-5.1-1.367Z" transform="translate(5103.584 -9276.999)" fill="none" stroke="#ee3739" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
